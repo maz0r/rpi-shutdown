@@ -14,6 +14,6 @@ When a momentary switch is attached to GPIO pin 21 and shorted to ground the fol
 
 ```
 wget https://raw.githubusercontent.com/maz0r/rpi-shutdown/main/rpi-shutdown.sh
-sudo chmod rpi-shutdown.sh
+sudo chmod x rpi-shutdown.sh
 sudo ./rpi-shutdown.sh
 ```
