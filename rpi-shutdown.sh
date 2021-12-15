@@ -32,7 +32,7 @@ held_for=0.0
 def rls():
         global held_for
         if (held_for > 5.0):
-                check_call(['/sbin/poweroff'])
+                check_call(['/sbin/halt'])
         elif (held_for > 2.0):
                 check_call(['/sbin/reboot'])
         else:
