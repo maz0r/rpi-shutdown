@@ -6,8 +6,10 @@
 When a momentary switch is attached to GPIO pin 21 and shorted to ground the following behaviour is observed
 
 < 2 seconds ==  nothing 
-> 2 && < 5 seconds == reboot 
-> 5 seconds == shutdown
+
+\> 2 && < 5 seconds == reboot 
+
+\> 5 seconds == shutdown
 
 
 ## Installation
